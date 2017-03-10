@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;α&lt;/title&gt;
+&lt;style type="text/css"&gt;
+&lt;!--
+#apDiv1 {
+	position:absolute;
+	left:4px;
+	top:18px;
+	width:469px;
+	height:27px;
+}
+#apDiv2 {
+	position:absolute;
+	left:2px;
+	top:74px;
+	width:468px;
+	height:25px;
+	z-index:2;
+}
+#apDiv3 {
+	position:absolute;
+	left:28px;
+	top:397px;
+	width:414px;
+	height:135px;
+	z-index:3;
+}
+#apDiv4 {
+	position:absolute;
+	left:357px;
+	top:569px;
+	width:99px;
+	height:21px;
+	z-index:4;
+}
+.STYLE2 {
+	color: #0000FF;
+	font-family: "楷体_GB2312";
+	font-size: 18pt;
+	font-weight: bold;
+filter:glow(color=white,strength=6);
+}
+.STYLE3 {
+	color: #FFFF66;
+	font-family: "楷体_GB2312";
+	font-size: 18pt;
+	font-weight: bold;
+filter:glow(color=blue,strength=2);
+}
+.STYLE4 {color: #0000FF}
+.STYLE6 {
+	color: #FF0000;
+	font-family: "宋体";
+	font-size: 9pt;
+}
+.STYLE7 {
+	font-family: "宋体";
+	font-size: 9pt;
+}
+.STYLE8 {font-family: "宋体"; font-size: 9pt; color: #0000FF; }
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body bgcolor="#E6CDA4"&gt;
+&lt;embed src="Sound/β" width="32" height="32" hidden="true" loop="true" &gt;&lt;/embed&gt;
+&lt;div style="width:473px; height:609px; margin:20px auto;
+position:relative; background-image:url(Image/main.jpg)" &gt;
+  &lt;div style="left:26px; top:127px; width:200px; position:absolute; height: 262px;"&gt;
+    &lt;table width="202" height="262" border="0" cellpadding="0" cellspacing="0" &gt;
+    &lt;tr&gt;
+      &lt;td width="45" class="STYLE6"&gt;姓名：&lt;/td&gt;
+      &lt;td width="157" class="STYLE8"&gt;ε&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;性别：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;ζ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;QQ号：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;η&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;住址：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;θ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;邮箱：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;ι&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;电话：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;κ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;手机：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;λ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;生日：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;μ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2" class="STYLE6"&gt;个性签名 ↓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div style="left:240px; top:140px; width:188px; position:absolute; height: 236px;"&gt;&lt;img src="Image/ω" width="189" height="235" /&gt;&lt;/div&gt;
+&lt;div align="center" class="STYLE2" id="apDiv1"&gt;ν&lt;/div&gt;
+&lt;div align="center" class="STYLE3" id="apDiv2"&gt;δ&lt;/div&gt;
+&lt;div class="STYLE4 STYLE7" id="apDiv3"&gt;ξ&lt;/div&gt;
+&lt;div id="apDiv4"&gt;&lt;a href="list.html" target="_blank"&gt;查看所有同学&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div align="center" style="margin-top:40px;"&gt;
+  &lt;p&gt;使用权归ο所有&lt;br&gt;此网页由火山同学录软件生成&lt;br&gt;&lt;a href="http://zyzzsd.2m2m.net" target="_blank"&gt;版权所有&amp;copy; 翟士丹@zYz Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <metadata name="folderBrowserDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;α&lt;/title&gt;
+&lt;style type="text/css"&gt;
+&lt;!--
+#apDiv1 {
+	position:absolute;
+	left:4px;
+	top:18px;
+	width:469px;
+	height:27px;
+}
+#apDiv2 {
+	position:absolute;
+	left:2px;
+	top:74px;
+	width:468px;
+	height:25px;
+	z-index:2;
+}
+#apDiv3 {
+	position:absolute;
+	left:28px;
+	top:397px;
+	width:414px;
+	height:135px;
+	z-index:3;
+}
+#apDiv4 {
+	position:absolute;
+	left:403px;
+	top:562px;
+	width:37px;
+	height:21px;
+	z-index:4;
+}
+.STYLE2 {
+	color: #0000FF;
+	font-family: "楷体_GB2312";
+	font-size: 18pt;
+	font-weight: bold;
+filter:glow(color=white,strength=6);
+}
+.STYLE3 {
+	color: #FFFF66;
+	font-family: "楷体_GB2312";
+	font-size: 18pt;
+	font-weight: bold;
+filter:glow(color=blue,strength=2);
+}
+.STYLE4 {color: #0000FF}
+.STYLE6 {
+	color: #FF0000;
+	font-family: "宋体";
+	font-size: 9pt;
+}
+.STYLE7 {
+	font-family: "宋体";
+	font-size: 9pt;
+}
+.STYLE8 {font-family: "宋体"; font-size: 9pt; color: #0000FF; }
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body bgcolor="#E6CDA4"&gt;
+&lt;div style="width:473px; height:609px; margin:20px auto;
+position:relative; background-image:url(../Image/main.jpg)" &gt;
+  &lt;div style="left:26px; top:127px; width:200px; position:absolute; height: 262px;"&gt;
+    &lt;table width="202" height="262" border="0" cellpadding="0" cellspacing="0" &gt;
+    &lt;tr&gt;
+      &lt;td width="45" class="STYLE6"&gt;姓名：&lt;/td&gt;
+      &lt;td width="157" class="STYLE8"&gt;ε&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;性别：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;ζ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;QQ号：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;η&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;住址：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;θ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;邮箱：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;ι&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;电话：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;κ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;手机：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;λ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td class="STYLE6"&gt;生日：&lt;/td&gt;
+      &lt;td class="STYLE8"&gt;μ&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td colspan="2" class="STYLE6"&gt;TA给我的留言 ↓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;/div&gt;
+  &lt;div style="left:240px; top:140px; width:188px; position:absolute; height: 236px;"&gt;&lt;img src="../Image/ω" width="189" height="235" /&gt;&lt;/div&gt;
+&lt;div align="center" class="STYLE2" id="apDiv1"&gt;ν&lt;/div&gt;
+&lt;div align="center" class="STYLE3" id="apDiv2"&gt;δ&lt;/div&gt;
+&lt;div class="STYLE4 STYLE7" id="apDiv3"&gt;ξ&lt;/div&gt;
+&lt;div id="apDiv4"&gt;&lt;a href=javascript:history.back()&gt;返回&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div align="center" style="margin-top:40px;"&gt;
+  &lt;p&gt;使用权归ο所有&lt;br&gt;此网页由火山同学录软件生成&lt;br&gt;&lt;a href="http://zyzzsd.2m2m.net" target="_blank"&gt;版权所有&amp;copy; 翟士丹@zYz Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;title&gt;α的同学列表&lt;/title&gt;
+&lt;style type="text/css"&gt;
+&lt;!--
+.STYLE2 {
+	color: #FF00FF;
+	font-size: 20pt;
+}
+.divperson
+{
+position:absolute; width:150px; height:170px; 
+filter:glow(color=white,strength=4);
+}
+.STYLE3 {
+	font-size: 24pt
+}
+.STYLE4 {color: #0000FF}
+.STYLE6 {
+	font-size: 36pt;
+	font-family: "楷体_GB2312";
+}
+.STYLE8 {
+	font-family: "楷体_GB2312";
+	font-weight: bold;
+}
+--&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body bgcolor="#E6CDA4"&gt;
+&lt;div style="margin:20px auto; position:relative; width:750px; height:βpx;"&gt;
+&lt;div style="position:absolute; width:750px; height:60px;filter:glow(color=white,strength=6);" align="center" class="STYLE3 STYLE4"&gt;&lt;span class="STYLE6"&gt;γ&lt;/span&gt;&lt;/div&gt;
+δ
+&lt;/div&gt;
+&lt;div align="center" style="margin-top:40px;"&gt;
+  &lt;p&gt;使用权归ε所有&lt;br&gt;此网页由火山同学录软件生成&lt;br&gt;&lt;a href="http://zyzzsd.2m2m.net" target="_blank"&gt;版权所有&amp;copy; 翟士丹@zYz Team&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

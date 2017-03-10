@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classmates", "Classmates\Classmates.csproj", "{9C21E7EA-F581-4F39-9FB3-33982807B6F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPage", "CPage\CPage.csproj", "{B40F1BA0-87A8-4C81-A966-EC720A61C491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageManage", "ImageManage\ImageManage.csproj", "{FFE49D41-1F70-4186-B2E1-9B64102AAA05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C21E7EA-F581-4F39-9FB3-33982807B6F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C21E7EA-F581-4F39-9FB3-33982807B6F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C21E7EA-F581-4F39-9FB3-33982807B6F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C21E7EA-F581-4F39-9FB3-33982807B6F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40F1BA0-87A8-4C81-A966-EC720A61C491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40F1BA0-87A8-4C81-A966-EC720A61C491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40F1BA0-87A8-4C81-A966-EC720A61C491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40F1BA0-87A8-4C81-A966-EC720A61C491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE49D41-1F70-4186-B2E1-9B64102AAA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE49D41-1F70-4186-B2E1-9B64102AAA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE49D41-1F70-4186-B2E1-9B64102AAA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE49D41-1F70-4186-B2E1-9B64102AAA05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
